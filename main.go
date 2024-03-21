@@ -13,7 +13,7 @@ import (
 type Response struct {
 	Success bool    `json:"Success"`
 	ErrCode string  `json:"ErrCode"`
-	Value1  float64 `json:"Value1"`
+	Value1  float64 `json:"Value1,omitempty"`
 	Value2  float64 `json:"Value2,omitempty"`
 }
 
